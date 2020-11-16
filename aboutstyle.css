@@ -1,0 +1,125 @@
+
+  *{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav img{
+ 
+    width: 5%;
+    margin-left: 35px;
+  
+} 
+.fnt{
+  z-index: 99;
+  background-color: transparent !important;
+}
+/* .bg light
+{
+  background-color: transparent !important;
+} */
+
+
+body{
+    background-color: ghostwhite !important;
+}
+.des{
+    float: right;
+    margin-left:51%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: ghostwhite;
+    font-weight: 600;
+
+
+}
+.des a{
+  color: #111;
+  border-bottom: 2px solid transparent;
+}
+.lactive a{
+  border-bottom: 2px solid black;
+}
+.tourism{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: forestgreen;
+    padding-left: 10px;
+    display: block ;
+    line-height: 0%;
+    width: 45%;
+    text-shadow: seashell;
+    margin-top: 10px ;
+    font-weight: 900;
+  
+  
+}
+.tourism p{
+    
+    color: lightcoral;
+    text-shadow:4px 4px 8px goldenrod;
+
+}
+/* nav{
+    opacity: 0%;
+} */
+.des a:hover{
+    background-color: tomato;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+nav{
+    background-color: ghostwhite;
+}
+.mymargin{
+  margin-top: -100px;
+}
+.mymargin img{
+ 
+    height: 600px;
+    background-size: cover;
+  }
+
+
+
+  /* video */
+
+
+.header video{
+    max-width: 100% !important;
+    height: 90vh !important;
+    /* z-index: -2; */
+    margin-left: 150px;
+    margin-bottom: 50px;
+    
+}
+
+/* KERALA */
+.container{
+  height: 125vh;
+}
+
+
+
+
+
+  /* footer */
+
+
+  .fot{
+    background-color: seashell;
+  }
+  
+  .fot h5{
+    text-align: center;
+    text-shadow: lightblue;
+    border: 2px solid white;
+  }
+
+
+
+
+.exp{
+  text-align: center;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

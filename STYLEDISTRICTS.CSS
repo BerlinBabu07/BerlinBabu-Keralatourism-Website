@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav img{
+    width: 5%;
+    margin-left: 30px;
+  
+}
+.fnt{
+  z-index: 99;
+  background-color: transparent !important;
+}
+
+.lactive a{
+  border-bottom: 2px solid whitesmoke;
+}
+
+.des{
+    float: right;
+    margin-left:50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: ghostwhite;
+    font-weight: 600;
+
+}
+
+.tourism{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: ivory;
+  padding-left: 10px;
+  display: grid ;
+  line-height: 0%;
+  width: 45%;
+  text-shadow: seashell;
+  margin-top: 10px ;
+  font-weight: 900;
+
+
+}
+.tourism p{
+    
+    color:lightcoral;
+    text-shadow:4px 4px 8px goldenrod;
+    
+
+}
+/* nav{
+    opacity: 0%;
+} */
+.des a:hover{
+    background-color: orangered;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+nav{
+    background-color: ghostwhite;
+}
+
+
+
+.mymargin{
+    margin-top: -100px;
+  }
+  .mymargin img{
+   
+      height: 600px;
+      background-size: cover;
+    }
+  
+
+
+
+
+
+
+
+    /* box */
+
+
+
+    .hll {
+        margin-top: 10px;
+        /* background-color: mediumvioletred; */
+        /* background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%) ; */
+        /* background-image: linear-gradient(0,0,0,0) ; */
+        background-color: #000000;
+        background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+        
+        min-height: 50vh;
+        font: normal 16px sans-serif;
+        padding: 60px 0;
+      }
+      .hll h1{
+      text-align: center;
+      font-weight: bolder;
+      text-decoration: underline;
+      font-family: cursive;
+      color: snow;
+      }
+      .container.gallery-container {
+        background-color: #fff;
+        color: #35373a;
+        min-height: 130vh;
+        min-width: 160vh;
+        border-radius: 20px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+      }
+
+
+
+      
+.gallery-container h1 {
+    flex-direction: row;
+    float: right;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  .gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .tz-gallery {
+    padding: 30px;
+  }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hll {
+    margin-top: 10px;
+    /* background-color: mediumvioletred; */
+    /* background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%) ; */
+    /* background-image: linear-gradient(0,0,0,0) ; */
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    
+    min-height: 50vh;
+    font: normal 16px sans-serif;
+    padding: 60px 0;
+  }
+  .hll h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-family: cursive;
+  color: snow;
+  }
+  .container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 130vh;
+    min-width: 160vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+  }
+  
+  .gallery-container h1 {
+    flex-direction: row;
+    float: right;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  .gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .tz-gallery {
+    padding: 30px;
+  }
+  
+  .tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+  }
+  
+  
+  .tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+  }
+  
+  .tz-gallery img {
+    border-radius: 4px;
+  }
+  
+  .baguetteBox-button {
+    background-color: transparent !important;
+  }
+  
+  
+  @media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+  
+    .container.gallery-container {
+        border-radius: 0;
+    }
+  }
+
+
+
+  .row  a h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-shadow: burlywood;
+    text-overflow: ellipsis;
+  }
+
+
+
+  /* footer */
+
+
+  .fot{
+    background-color: seashell;
+  }
+  
+  .fot h5{
+    text-align: center;
+    text-shadow: lightblue;
+    border: 2px solid white;
+  }
+
+
+
+
+.exp{
+  text-align: center;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  
+  
+  
